@@ -114,6 +114,10 @@ body {
     bottom: 0;
     overflow-y: auto;
   }
+
+  figcaption {
+    font-style: italic;
+  }
   
   @media (max-width: 991px) {
     .documentation .left-sidebar {
