@@ -40,6 +40,11 @@ body {
     font-size: 2.5rem;
     color:#b40d1b;
   }
+
+  .video {
+    margin: auto;
+    width: 80%;
+  }
   
   @media(max-width: 767px) {
     h2 {

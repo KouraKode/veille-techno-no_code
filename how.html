@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outils de developpement No-Code</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/vendors/codemirror/codemirror.css" />
+    <link rel="stylesheet" href="assets/vendors/codemirror/ambiance.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.45.0/theme/dracula.min.css">
+    <link rel="stylesheet" href="assets/vendors/pwstabs/jquery.pwstabs.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/images/logo.png" />
+</head>
+<body>
+    <div class="container-fluid documentation">
+        <div class="row">
+            <div class="col-md-3 col-xl-2 left-sidebar">
+                <div class="logo-wrapper">
+                    <a href="index.html">
+                        <img src="assets/images/logo_ECL.jpg" width="100" height="100" alt="logo" class="logo">
+                    </a>
+                </div>
+                <h5 class="left-menu-title">Menu</h5>
+                <ul class="left-menu">
+                    <li><a href="./contexte.html"> Contexte </a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn btn-dark dropdown-toggle" type="button" data-toggle="dropdown">
+                                No-Code
+                            <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a href="what.html">Quoi</a></li>
+                                <li><a href="why.html">Pourquoi</a></li>
+                                <li><a href="who.html">Qui</a></li>
+                                <li><a href="how.html">Comment</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="tools.html">Examples d'Outils No-Code</a></li>
+                    <li><a href="#">Limitations et D&eacute;fis</a></li>
+                    <li><a href="#">Tendances et &eacute;volutions Futures</a></li>
+                    <li><a href="#">Mise en place de la Veille</a></li>
+                </ul>        
+            </div>
+            <div class="col-md-9 col-xl-10 main-panel">
+                <div class="main-panel-wrapper">
+                    <div class="row">
+                        <div class="col-12 grid-margin">
+                            <h2>No-Code: Comment ?</h2>
+                        </div>
+                        <div class="col-12 grid-margin" id="how">
+                            <p>Le No-Code révolutionne le développement d'applications en offrant une approche simple et efficace, accessible à tous. Voici quelques-unes des fonctionnalités clés qui définissent cette méthode innovante :</p>
+                            <ul>
+                                <li>
+                                    <b>Interface Visuelle Intuitive :</b> Les outils No-Code offrent des interfaces conviviales et intuitives, permettant aux utilisateurs de naviguer facilement et de construire leurs applications avec confiance. <br>
+                                    <div class="video">
+                                        <video width="450" height="250" controls>
+                                            <source src="./assets/videos/demo-interface.mp4" type="video/mp4">
+                                        </video>
+                                        <div class="mb-4 source">
+                                            <b>Source:</b> Interface Intuitive de <a href="https://bubble.io/">Bubble.io</a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <b>Drag and drop :</b> Création des applications en déplaçant simplement des éléments visuels préconçus sur une interface graphique, sans nécessiter de compétences en programmation. <br>
+                                    <div class="video">
+                                        <video width="450" height="250" controls>
+                                            <source src="./assets/videos/drag-drop.mp4" type="video/mp4">
+                                        </video>
+                                        <div class="mb-4 source">
+                                            <b>Source:</b> Démo du drag and drop sur <a href="https://bubble.io/">Bubble.io</a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <b>Intégration avec des services tiers :</b> Les outils No-Code permettent l'intégration transparente avec une multitude de services tiers tels que les bases de données, les services de cloud et les API, pour étendre les fonctionnalités de vos applications. <br>
+                                    <figure align="center">
+                                        <img src="assets/images/pluggins-bubble.png" width="450" alt="">
+                                        <figcaption>Services Tiers de <a href="https://bubble.io/">Bubble.io</a></figcaption>
+                                    </figure>
+                                </li>
+
+                                <li>
+                                    <b>Automatisation de processus :</b> Simplification des tâches répétitives et améliorez l'efficacité en automatisant les processus grâce aux fonctionnalités avancées de No-Code.
+                                </li>
+
+                                <li>
+                                    <b>Personnalisation :</b> Adaptation des applications aux besoins spécifiques grâce à des options de personnalisation flexibles, permettant de créer des solutions uniques et adaptées aux entreprises.
+                                </li>
+
+                                <li>
+                                    <b>Déploiement Automatique :</b> Déploiement rapidement des applications sur différentes plateformes avec des fonctionnalités de déploiement automatique, permettant de mettre les produits entre les mains des utilisateurs en un rien de temps.
+                                </li>
+                            </ul>
+                            <p>Avec le No-Code, la création d'applications n'a jamais été aussi simple et accessible. Libérez votre créativité et transformez vos idées en réalité, sans les tracas du codage traditionnel.</p>
+                        </div>
+                        <div class="grid-margin btn-prev col-6">
+                            <a href="who.html" class="btn btn-danger"><< No-Code: Qui ?</a>
+                        </div>
+                        <div class="grid-margin btn-next col-6">
+                            <a href="tools.html" class="btn btn-danger">Exemples d'Outils No-Code ? >></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/vendors/codemirror/codemirror.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.45.0/mode/ruby/ruby.min.js"></script>
+    <script src="assets/vendors/pwstabs/jquery.pwstabs.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
