@@ -21,6 +21,10 @@ body {
     font-weight: 500;
     line-height: 1;
   }
+
+  h3, h4 {
+    text-align: center;
+  }
   
   p {
     font-size: .875rem;
