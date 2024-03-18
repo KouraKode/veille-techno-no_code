@@ -45,7 +45,11 @@ body {
     margin: auto;
     width: 80%;
   }
-  
+  .tool-name {
+    color: #b40d1b;
+    font-weight: bolder;
+  }
+
   @media(max-width: 767px) {
     h2 {
       font-size: 1.9rem;
