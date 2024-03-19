@@ -45,11 +45,14 @@ body {
     margin: auto;
     width: 80%;
   }
-  .tool-name, .limit-name {
+  .tool-name, .limit-name, .trend-name {
     color: #b40d1b;
     font-weight: bolder;
   }
 
+  ol li {
+    margin-top: 20px;
+  }
   @media(max-width: 767px) {
     h2 {
       font-size: 1.9rem;
