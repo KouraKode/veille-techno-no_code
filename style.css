@@ -45,7 +45,7 @@ body {
     margin: auto;
     width: 80%;
   }
-  .tool-name {
+  .tool-name, .limit-name {
     color: #b40d1b;
     font-weight: bolder;
   }
