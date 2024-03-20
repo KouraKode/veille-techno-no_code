@@ -45,7 +45,7 @@ body {
     margin: auto;
     width: 80%;
   }
-  .tool-name, .limit-name, .trend-name {
+  .tool-name, .limit-name, .trend-name, .vt-tool-name {
     color: #b40d1b;
     font-weight: bolder;
   }
