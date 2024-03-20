@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outils de developpement No-Code</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/vendors/codemirror/codemirror.css" />
+    <link rel="stylesheet" href="assets/vendors/codemirror/ambiance.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.45.0/theme/dracula.min.css">
+    <link rel="stylesheet" href="assets/vendors/pwstabs/jquery.pwstabs.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/images/logo.png" />
+</head>
+<body>
+    <div class="container-fluid documentation">
+        <div class="row">
+            <div class="col-md-3 col-xl-2 left-sidebar">
+                <div class="logo-wrapper">
+                    <a href="index.html">
+                        <img src="assets/images/logo_ECL.jpg" width="100" height="100" alt="logo" class="logo">
+                    </a>
+                </div>
+                <h5 class="left-menu-title">Menu</h5>
+                <ul class="left-menu">
+                    <li><a href="./contexte.html"> Contexte </a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn btn-dark dropdown-toggle" type="button" data-toggle="dropdown">
+                                No-Code
+                            <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a href="what.html">Quoi</a></li>
+                                <li><a href="why.html">Pourquoi</a></li>
+                                <li><a href="who.html">Qui</a></li>
+                                <li><a href="how.html">Comment</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="tools.html">Examples d'Outils No-Code</a></li>
+                    <li><a href="limitations.html">Limitations et D&eacute;fis</a></li>
+                    <li><a href="trends.html">Tendances et &eacute;volutions Futures</a></li>
+                    <li><a href="veille.html">Mise en place de la Veille</a></li>
+                </ul>
+            </div>
+            <div class="col-md-9 col-xl-10 main-panel">
+                <div class="main-panel-wrapper">
+                    <div class="row">
+                        <div class="col-12 grid-margin">
+                            <h2>Bibliographie</h2>
+                        </div>
+                        <div class="col-12 grid-margin" id="veille">
+                              <ol>
+                                <li>
+                                    Contributeurs aux projets Wikimedia. Développement No code. <a href="https://fr.wikipedia.org/wiki/D%C3%A9veloppement_No_code">https://fr.wikipedia.org/wiki/D%C3%A9veloppement_No_code</a>
+                                </li>
+                                <li>
+                                    Raymond, M. (2023, 18 October). Remarkably Useful Stats and Trends on Software Development | GoodFirms Research. <a href="https://www.goodfirms.co/resources/software-development-research">https://www.goodfirms.co/resources/software-development-research</a>
+                                </li>
+                                <li>
+                                    Safe. (2022, December 16). Low-code et no-code : statistiques clés et tendances (2024). HelloSafe. <a href="https://hellosafe.fr/blog/rapport-statistique-no-code-low-code">https://hellosafe.fr/blog/rapport-statistique-no-code-low-code</a>
+                                </li>
+                                <li>
+                                    Zapier Editorial Team. (2022, March 11). Zapier data report: The rise of no-code. <a href="https://zapier.com/blog/no-code-report/">https://zapier.com/blog/no-code-report/</a>
+                                </li>
+                                <li>
+                                    Guemas, G. (2024, January 8). 14 outils no-code à essayer (et à adopter) en 2024. Tool Advisor. <a href="https://tool-advisor.fr/blog/outils-no-code/#automatisation">https://tool-advisor.fr/blog/outils-no-code/#automatisation</a>
+                                </li>
+                                <li>
+                                    Maes, O. (2022, 20 octobre). Pourquoi les entreprises françaises ont besoin d’outils no code pour rester compé ; titives. <a href="https://www.journaldunet.com/developpeur/1515765-pourquoi-les-entreprises-francaises-ont-besoin-d-outils-no-code-pour-rester-competitives/">https://www.journaldunet.com/developpeur/1515765-pourquoi-les-entreprises-francaises-ont-besoin-d-outils-no-code-pour-rester-competitives/</a>
+                                </li>
+                                <li>
+                                    Top 10 des outils no code à maitriser en 2024. (n.d.). <a href="https://www.impli.fr/outils-no-code">https://www.impli.fr/outils-no-code</a></li>
+                                <li>
+                                    Safe. (2022, December 16). Low-code et no-code : statistiques clés et tendances (2024). HelloSafe.
+                                    <a href="https://hellosafe.fr/blog/rapport-statistique-no-code-low-code">https://hellosafe.fr/blog/rapport-statistique-no-code-low-code</a>
+                                </li>
+                                <li>
+                                    Gartner says cloud will be the centerpiece of new digital experiences. (2021, November 10). Gartner. <a href="https://www.gartner.com/en/newsroom/press-releases/2021-11-10-gartner-says-cloud-will-be-the-centerpiece-of-new-digital-experiences">https://www.gartner.com/en/newsroom/press-releases/2021-11-10-gartner-says-cloud-will-be-the-centerpiece-of-new-digital-experiences</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/@Ottho-nocode">https://www.youtube.com/@Ottho-nocode</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/@Shubham_Sharma">https://www.youtube.com/@Shubham_Sharma</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/julien-vacher-nocode-bubble-expert-phydius/?originalSubdomain=fr">https://www.linkedin.com/in/julien-vacher-nocode-bubble-expert-phydius/</a>
+                                </li>
+                              </ol>                              
+                        </div>
+                        <div class="grid-margin btn-prev col-6">
+                            <a href="veille.html" class="btn btn-danger"><< Mise en Place de la Veille</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/vendors/codemirror/codemirror.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.45.0/mode/ruby/ruby.min.js"></script>
+    <script src="assets/vendors/pwstabs/jquery.pwstabs.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
